@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LiftLibraryV2.Buttons.ButtonBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Buttons\ButtonBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Buttons.CloseDoorButton" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buttons\CloseDoorButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Buttons.FloorButton" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buttons\FloorButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Buttons.LiftButton" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Buttons\LiftButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Buttons.OpenDoorButton" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buttons\OpenDoorButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Buttons.ToggleButton" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buttons\ToggleButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.CallRequest" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAAAABAAAAAAA=</HashCode>
+      <FileName>CallRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.FloorCallRequest" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FloorCallRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.FloorRequestManager" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQACAAABAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FloorRequestManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.InvalidFloorException" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidFloorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.LiftCallRequest" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LiftCallRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.LiftController" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAAAAAAAAAABAAAAAAAgAgAQAEAAAGAAAA=</HashCode>
+      <FileName>LiftController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Components.Building" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAgAAAAAEAAAAAAAAQAAAAAAAAIQAAA=</HashCode>
+      <FileName>Components\Building.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LiftLibraryV2.Components.Floor" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Components\Floor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiftLibraryV2.Components.Lift" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAICAgEAAAAAAAQAgAIUAAAgAAAAAABA=</HashCode>
+      <FileName>Components\Lift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LiftLibraryV2.IController" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAAAAAABAAAAAABAAAAAAAgAAAQAEAAAAAAAA=</HashCode>
+      <FileName>IController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LiftLibraryV2.Components.IBuilding" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Components\IBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LiftLibraryV2.Buttons.ButtonState" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Buttons\ButtonBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LiftLibraryV2.Buttons.LiftDoorState" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Buttons\OpenDoorButton.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LiftLibraryV2.Components.PowerSource" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Components\Lift.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
